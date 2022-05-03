@@ -1,8 +1,8 @@
 import React from "react";
 import "./Home.css";
 import { Link } from "react-router-dom";
-import bg from "../images/frontpagebg2.png";
-import logo from "../images/airbnbRed.png";
+import bg from "../pages/images/frontpagebg.png";
+import logo from "../pages/images/airbnbRed.png";
 import {ConnectButton} from "web3uikit";
 const Home = () => {
 
@@ -12,7 +12,7 @@ const Home = () => {
         <div className="containerGradient">
           <div className="topBanner">
             <div>
-              <img className="logo" src="{logo}" alt="logo"></img>
+              <img className='logo' src='{logo}' alt='logo'></img>
             </div>
             <div className="tabs">
               <div className="selected"> Places to stay</div>
